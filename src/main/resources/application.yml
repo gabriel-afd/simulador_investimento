@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/simuladorcdb
+    username: postgres
+    password: 85854121
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show_sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  private:
+    key: classpath:app.key
+  public:
+    key: classpath:app.pub
