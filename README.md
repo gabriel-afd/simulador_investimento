@@ -24,23 +24,6 @@ O projeto consiste em um simulador de investimentos que pode ser facilmente exte
    ```bash
    cd simulador_investimento
    ```
-3. Siga as instruções específicas na pasta do seu projeto para rodar o simulador (exemplo: `python main.py`, `dotnet run`, etc).
-
-## Estrutura do Projeto
-
-Explora principalmente os conceitos de Orientação a Objetos, SOLID, além dos padrões de projeto já mencionados.
-
-```
-src/
- ├── investimentos/     # Estratégias e tipos de investimento
- ├── factory/           # Classes Factory para criação de investimentos
- └── main.xxx           # Arquivo principal de execução
-```
-
-## Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
 ---
 
 Projeto criado para fins de estudo e aprimoramento das práticas de design de software.
